@@ -11,6 +11,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <div class="ui large inverted menu">
+        <div class="ui container">
+          <%= render 'layouts/navigation'%>
+        </div>
+      </div>
+    </header>
+    <main class="ui container">
+      <%= yield %>
+    <main>
   </body>
 </html>
