@@ -26,6 +26,10 @@ gem 'semantic-ui-sass'
 
 gem 'jquery-rails'
 
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+
+gem 'hirb'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
