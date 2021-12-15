@@ -13,14 +13,14 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-scroll_bottom = function() {
+function scroll_bottom() {
   if ($('#messages').length > 0) {
     $('#messages').scrollTop($('#messages')[0].scrollHeight);
   };
   
 };
 
-submit_message = function() {
+function submit_message() {
   $('#message_body').on('keydown', function(e) {
     if (e.keyCode == 13) {
       $('button').click();
